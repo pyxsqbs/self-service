@@ -1,0 +1,135 @@
+.bodyContainer {
+  width: 100%;
+  height: auto;
+  background-color: #ebeef2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.queryKnowledgeContainer {
+  width: 100%;
+  height: auto;
+  min-height: 714px;
+  background-color: #ebeef2;
+  margin-top: 54px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.menuContainer {
+  min-height: 720px;
+  height: 100%;
+  background-color: white;
+  transition: width .5s ease, height .5s ease;
+  -webkit-transition: width .5s ease, height .5s ease; /* Safari */
+  border: 1px solid #e9e9e9;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.titleContainer {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: height .3s ease, flex-direction .3s ease;
+  -webkit-transition: height .3s ease, flex-direction .3s ease; /* Safari */
+}
+
+.title {
+  color: #1f3a62;
+  font-weight: bold;
+  font-size: 12pt;
+  text-align: center;
+  transition: font-size .3s ease;
+  -webkit-transition: font-size .3s ease; /* Safari */
+}
+
+.contentContainer {
+  margin: 10px;
+  transition: width .5s ease;
+  -webkit-transition: width .5s ease; /* Safari */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contentHeaderContainr{
+  padding: 0 15px;
+  width: 100%;
+}
+.contentHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: normal;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 4px #becdd8;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.tableContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+}
+
+.input {
+  height: 30px;
+  width: 284px;
+  padding-left: 12px;
+  padding-bottom: 5px;
+  margin: 0 15px;
+}
+
+.label{
+  font-weight: bold;
+  color: #54698d;
+  margin-right: 5px;
+}
+
+.submitButton {
+  width: 120px;
+  height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .queryKnowledgeContainer {
+    min-height: 0;
+    flex-direction: column;
+  }
+
+  .menuContainer {
+    min-height: 0;
+    height: auto;
+  }
+
+  .contentContainer {
+    margin: 20px 0;
+    padding: 0 5px;
+  }
+
+  .contentHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .input {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .tableContainer {
+    padding: 0;
+    overflow: scroll;
+  }
+}

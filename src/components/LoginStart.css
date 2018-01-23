@@ -1,0 +1,26 @@
+.loginStartContainer {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  height: 30px;
+  width: 67px;
+  border: solid 1px white;
+  font-size: 13px;
+  color: white;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+  transition: border-color .3s ease;
+  -webkit-transition: border-color .3s ease;  /* Safari */
+}
+
+.login:hover {
+  border: solid 1px;
+}

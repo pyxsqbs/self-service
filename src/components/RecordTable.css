@@ -1,0 +1,134 @@
+.recordTableContainer {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.tableCanvas {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.theadStyle {
+  color: #939cae;
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.theadTr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 4px 0;
+  width: auto;
+}
+
+.theadTh {
+  width: auto;
+  height: auto;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+.tbodyStyle {
+  color: #333333;
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.tbodyTrContainer {
+  width: 100%;
+  height: 43px;
+  padding: 6px 0;
+}
+
+.tbodyTr {
+  background-color: #f4f6f9;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  overflow: hidden;
+  transition: background-color .3s ease, border-color .3s ease;
+  -webkit-transition: background-color .3s ease, border-color .3s ease; /* Safari */
+}
+
+.tbodyTr:hover {
+  background-color: white;
+  border-color: #41b5ef;
+}
+
+.tbodyTh {
+  padding: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tableNodata {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15.5%;
+  color: #939cae;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.icInfo {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background: url(../assets/ic_info.png);
+}
+
+@media screen and (max-width: 768px) {
+  .tableNodata {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .tableNodata {
+    height: 210px;
+  }
+
+  .theadTh {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tbodyTh {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  .tableNodata {
+    height: 210px;
+  }
+}

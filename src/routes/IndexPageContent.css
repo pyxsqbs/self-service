@@ -1,0 +1,272 @@
+.bodyContainer {
+  width: 100%;
+  /*height: 100%;*/
+  height: 844px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contentContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #ebeef2;
+  margin-top: 54px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerContainer {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.indexMsg {
+  width: 100%;
+  height: 23%;
+  padding: 8px;
+}
+
+.noIndexMsg {
+  width: 100%;
+  height: 77%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inIndexMsg {
+  width: 100%;
+  height: 23%;
+  padding: 8px;
+}
+
+.enIndexMsg {
+  width: 100%;
+  height: 36.19%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.enIndexMsgTwo {
+  width: 100%;
+  height: 40.81%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.firstContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secondContainer {
+  width: 100%;
+  height: 47%;
+  padding: 8px;
+}
+
+.secondContainerTwo {
+  width: 100%;
+  height: 53%;
+  padding: 8px;
+}
+
+.borderContainer {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 4px #becdd8;
+  display: flex;
+  align-items: flex-start;
+  justify-items: stretch;
+  flex-direction: column;
+}
+
+.headerWords {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 20px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.showAll {
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .bodyContainer {
+    display: block;
+    height: auto;
+  }
+
+  .contentContainer {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .mainContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .footerContainer {
+    width: 100%;
+    height: 45%;
+  }
+
+  .indexMsg {
+    padding: 6px 0;
+    height: auto;
+    padding-top: 0;
+  }
+
+  .noIndexMsg {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .inIndexMsg {
+    padding: 6px 0;
+  }
+
+  .enIndexMsg {
+    padding: 6px 0;
+  }
+
+  .enIndexMsgTwo {
+    padding: 6px 0;
+    padding-bottom: 0;
+  }
+
+  .firstContainer {
+    width: 100%;
+  }
+
+  .secondContainer {
+    padding: 6px 0;
+  }
+
+  .secondContainerTwo {
+    padding: 6px 0;
+    height: 312px;
+  }
+
+  .borderContainer {
+    box-shadow: 0 1px 4px #becdd8;
+  }
+
+  .myRequestWords {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-height: 844px) {
+  .bodyContainer {
+    height: 100%;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  .bodyContainer {
+    display: block;
+    height: auto;
+  }
+
+  .contentContainer {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .mainContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .footerContainer {
+    width: 100%;
+    height: 45%;
+  }
+
+  .indexMsg {
+    padding: 6px 0;
+    height: auto;
+    padding-top: 0;
+  }
+
+  .noIndexMsg {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .inIndexMsg {
+    padding: 6px 0;
+  }
+
+  .enIndexMsg {
+    padding: 6px 0;
+  }
+
+  .enIndexMsgTwo {
+    padding: 6px 0;
+    padding-bottom: 0;
+  }
+
+  .firstContainer {
+    width: 100%;
+  }
+
+  .secondContainer {
+    padding: 6px 0;
+  }
+
+  .secondContainerTwo {
+    padding: 6px 0;
+    height: 312px;
+  }
+
+  .borderContainer {
+    box-shadow: 0 1px 4px #becdd8;
+  }
+
+  .myRequestWords {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}

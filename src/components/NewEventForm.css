@@ -1,0 +1,154 @@
+.newEventFormContainer {
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.label{
+  font-weight: bold;
+  color: #54698d;
+  margin-right: 5px;
+}
+
+.button {
+  height: 30px;
+  width: 120px;
+  font-size: 12px;
+}
+
+.input{
+  border-color: #e6e7ec;
+}
+
+.formItemLayoutChildContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 7px;
+}
+
+.formItemLayoutChildren {
+  width: 45.9%;
+  height: auto;
+}
+
+.requestInformation {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: solid 1px #becdd8;
+  margin-bottom: 20px;
+}
+
+.formItemLayoutChildContainerTwo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -20px;
+}
+
+.formItemLayoutChildrenTwo {
+  width: 25%;
+  height: auto;
+}
+
+.newEventTableContainer {
+  width: 67%;
+  height: auto;
+}
+
+.newEventTable {
+  height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .newEventFormContainer {
+    padding: 0;
+  }
+
+  .button {
+    margin-bottom: 44px;
+  }
+
+  .formItemLayoutChildContainer {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .formItemLayoutChildren {
+    width: 100%;
+    height: auto;
+  }
+
+  .formItemLayoutChildContainerTwo {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .formItemLayoutChildrenTwo {
+    width: 100%;
+    height: auto;
+  }
+
+  .newEventTableContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .newEventTable {
+    width: 480px;
+    height: auto;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  .newEventFormContainer {
+    padding: 0;
+  }
+
+  .button {
+    margin-bottom: 44px;
+  }
+
+  .formItemLayoutChildContainer {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .formItemLayoutChildren {
+    width: 100%;
+    height: auto;
+  }
+
+  .formItemLayoutChildContainerTwo {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .formItemLayoutChildrenTwo {
+    width: 100%;
+    height: auto;
+  }
+
+  .newEventTableContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .newEventTable {
+    width: 100%;
+    height: 300px;
+    margin-left: 0;
+  }
+}

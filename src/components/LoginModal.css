@@ -1,0 +1,44 @@
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1200;
+  transition: background-color .3s ease;
+  -webkit-transition: background-color .3s ease; /* Safari */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginFormContainer {
+  height: 333px;
+  width: 400px;
+  background-color: white;
+  padding: 13px 40px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.closeIcon {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.loginFormContent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

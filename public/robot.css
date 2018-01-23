@@ -1,0 +1,49 @@
+.smartnlp-robot.smartnlp-robot-mini .smartnlp-robot-slide > li > a {
+  display: none;
+}
+
+.smartnlp-robot.smartnlp-robot-mini .smartnlp-robot-slide > li {
+  padding: 0 !important;
+  height: 64px !important;
+  width: 64px !important;
+  background: url(ic_robot.png) no-repeat center 0 !important;
+  margin: 0 !important;
+  transition: opacity .3s ease;
+  -webkit-transition: opacity .3s ease;  /* Safari */
+}
+
+.smartnlp-robot.smartnlp-robot-mini .smartnlp-robot-slide > li:hover {
+  opacity: 0.4!important;
+}
+
+.smartnlp-robot.smartnlp-robot-mini .smartnlp-robot-slide {
+  margin: 0 !important;
+  padding: 0 !important;
+  left: -64px !important;
+  top: 50% !important;
+}
+
+#robot{
+  border-left: 1px #00c3ff solid;
+}
+
+.ant-upload.ant-upload-select {
+  width: 100%;
+}
+
+.ant-tabs-nav-container {
+  font-size: 12px !important;
+}
+
+@media screen and (max-width: 768px){
+  .smartnlp-robot.smartnlp-robot-mini .smartnlp-robot-slide {
+    top: 60% !important;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  .smartnlp-robot.smartnlp-robot-mini .smartnlp-robot-slide {
+    top: 60% !important;
+  }
+}
+

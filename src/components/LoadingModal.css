@@ -1,0 +1,18 @@
+
+.LoadingModalContainer {
+  top: 70px;
+  position: fixed;
+  right: -50px;
+  z-index: 4000;
+  height: 50px;
+  width: 120px;
+  background-color: white;
+  border: solid 1px #98a4bb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 25px;
+  padding: 20px;
+  transition: right .3s ease, color .3s ease;
+  -webkit-transition: right .3s ease, color .3s ease; /* Safari */
+}

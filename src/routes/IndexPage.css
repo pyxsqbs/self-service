@@ -1,0 +1,26 @@
+.bodyBack{
+  height: auto;
+  width: 100%;
+  background: url(../assets/bg.jpg) no-repeat center 0;
+  background-size: 100% 644px;
+}
+
+@media screen and (min-height: 844px) {
+  .bodyBack{
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bodyBack{
+    height: auto;
+  }
+}
+
+@media only screen and (min-height: 1300px){
+  .bodyBack{
+    height:auto;
+  }
+}
+
+

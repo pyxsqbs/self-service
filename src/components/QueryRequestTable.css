@@ -1,0 +1,42 @@
+
+.queryRequestTableContainer {
+  background-color: white;
+  width: 100%;
+  box-shadow: 1px 1px 4px #becdd8;
+  height: 560px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.pagination{
+  padding: 10px 50px;
+}
+
+.state{
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.priority{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .queryRequestTableContainer {
+    margin-bottom: 44px;
+    height: auto;
+    width: 1249px;
+  }
+}

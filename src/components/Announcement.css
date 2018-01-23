@@ -1,0 +1,87 @@
+.announcementContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.announcementHeader {
+  width: auto;
+  height: 45px;
+  background-color: #f4f6f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+}
+
+.more {
+  font-size: 12px;
+  padding-top: 2px;
+  padding-right: 5px;
+}
+
+.announcementContent {
+  height: 115px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.contentItem {
+  color: #939cae;
+  padding: 3px 0;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.announcementNoData {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/emp_announcement.png) no-repeat right 10px;
+  background-size: 120px auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.announcementNoDataMsg {
+  width: auto;
+  height: auto;
+  padding: 20px 10px;
+  padding-bottom: 0;
+  line-height: 12px;
+  font-weight: normal;
+  color: #939cae;
+}
+
+.showMoreContainer {
+  padding: 12px 10px;
+}
+
+.showMoreContainerTwo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.showMore {
+  height: 26px;
+  width: 80px;
+  border: solid 1px;
+  font-weight: normal;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

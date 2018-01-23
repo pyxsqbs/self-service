@@ -1,0 +1,9 @@
+
+.quizRobotContainer{
+  position: fixed;
+  right: 0;
+  z-index: 40;
+  height: 64px;
+  width: 64px;
+  background: url(../assets/ic_robot.png) no-repeat center 0;
+}

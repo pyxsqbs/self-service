@@ -1,0 +1,27 @@
+.solutionAttachmentContainer {
+  width: 100%;
+  height: auto;
+  min-height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 30px;
+  flex-direction: column;
+}
+
+.title {
+  color: #98a5bb;
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .solutionAttachmentContainer {
+    padding: 0;
+  }
+
+  .title {
+    padding: 4px 18px;
+    padding-bottom: 0;
+  }
+}

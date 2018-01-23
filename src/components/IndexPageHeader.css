@@ -1,0 +1,238 @@
+.header {
+  width: 100%;
+  height: 54px;
+  background-color: #2d3134;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+
+.logoContainer {
+  height: 100%;
+  width: auto;
+  margin-left: 9px;
+  margin-right: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImg {
+  height: 25px;
+  width: 108px;
+  background: url(../assets/logo_2x.png) no-repeat center 0;
+  background-size: 108px 25px;
+  margin: 0 6px;
+}
+
+.msgContainer {
+  height: 100%;
+  width: auto;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /*white-space: nowrap;*/
+}
+
+.utilContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.searchImg {
+  height: 20px;
+  width: 20px;
+  background: url(../assets/ic_search_white.png) no-repeat center 0;
+  margin: 0 5px;
+}
+
+.avatarStyle {
+  margin: 0 15px;
+  background-color: inherit;
+  background: url(../assets/ic_admin.png) no-repeat center 0;
+}
+
+.dropMenuContainer {
+  display: none;
+}
+
+.userContainer {
+  display: none;
+}
+
+.registration {
+  width: 22px;
+  height: 22px;
+  font-size: 13px;
+  line-height: 10px;
+  color: white;
+  margin: 0 9px;
+  border: solid 1px white;
+  border-radius: 4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color .3s ease, color .3s ease;
+  -webkit-transition: border-color .3s ease, color .3s ease; /* Safari */
+}
+
+.registration:hover {
+  border-color: #0e77ca;
+  color: #0e77ca;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 54px;
+    background-color: #2d3134;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logoContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .logoImg {
+    margin: 0;
+    width: 120px;
+  }
+
+  .msgContainer {
+    display: none;
+  }
+
+  .utilContainer {
+    display: none;
+  }
+
+  .dropMenuContainer {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menuItem {
+    color: #e1e1e1;
+    width: 120px;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: #2d3134;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .menuItem:hover {
+    color: white;
+    background-color: rgba(45, 49, 52, 0.85);
+  }
+
+  .menuItemMsgContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .userContainer {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .registration {
+    margin-bottom: -2.7px;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  .header {
+    width: 100%;
+    height: 54px;
+    background-color: #2d3134;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logoContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .logoImg {
+    margin: 0;
+    width: 120px;
+  }
+
+  .msgContainer {
+    display: none;
+  }
+
+  .utilContainer {
+    display: none;
+  }
+
+  .dropMenuContainer {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menuItem {
+    color: #e1e1e1;
+    width: 120px;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: #2d3134;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .menuItem:hover {
+    color: white;
+    background-color: rgba(45, 49, 52, 0.85);
+  }
+
+  .userContainer {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .registration {
+    margin-bottom: 2px;
+  }
+}
